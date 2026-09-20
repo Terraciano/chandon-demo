@@ -6,7 +6,7 @@ This repository is a first-contact sales demo for Chandon Argentina. It is a hyp
 
 - The public-fact versus inference boundary documented in `research/`.
 - The single-page, low-dependency architecture unless discovery adds a real requirement.
-- The current visual thesis: social sparkling-wine hospitality, Mendoza landscape, mineral neutrals, and one red accent.
+- The current visual thesis: social sparkling-wine hospitality, Mendoza landscape, Chandon Argentina's warm cream palette, and one gold accent.
 - The disclosure that generated images are conceptual.
 - Spanish voseo and concise reservation-first copy.
 

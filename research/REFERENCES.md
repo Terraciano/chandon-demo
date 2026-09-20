@@ -1,5 +1,13 @@
 # Selected references
 
+## Chandon Argentina current CSS and wordmark
+
+- URL: https://www.chandon.com.ar/nuestra-bodega/
+- Role: primary identity source of truth
+- Use for: the black CHANDON wordmark, Arial/sans typography, warm cream surfaces, gold highlights, Spanish voseo, and public visitor information
+- Do not copy: the legacy page-builder layout or its dated content density
+- Observed pattern: the active Argentina interface uses warm cream, black, and gold; red is not part of its visible UI system
+
 ## Chandon Australia
 
 - URL: https://www.chandon.com/en-au

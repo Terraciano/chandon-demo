@@ -13,7 +13,7 @@ A one-shot, first-contact landing-page hypothesis for Bodega Chandon in Mendoza.
 
 Public facts, source URLs, competitor observations, and the design rationale live in [`research/`](./research). The page deliberately omits unverified prices, availability, awards, statistics, certifications, accessibility claims, and operational policies.
 
-The three photographs in `public/images/` were generated specifically for this concept with OpenAI's built-in image generation tool. They are art-direction placeholders, contain no copied brand campaign assets, and do not document the real Chandon property. Replace them with approved brand photography before production use.
+The three photographs in `public/images/` were generated specifically for this concept with OpenAI's built-in image generation tool. They are art-direction placeholders, contain no copied brand campaign assets, and do not document the real Chandon property. Replace them with approved brand photography before production use. The public Chandon Argentina wordmark is included only to identify the prospect in this private sales demo.
 
 ## Local development
 
@@ -46,16 +46,17 @@ No secrets or backend services are required. The page links to Chandon's existin
 ## Asset and license notes
 
 - Generated concept images: project-specific demo assets; final production usage requires client approval.
+- Public prospect wordmark: `public/images/chandon-logo.png`, used only for private sales identification and subject to the brand owner's rights.
 - Fonts: Geist and Geist Mono loaded through `next/font`.
 - CHANDON is a third-party trademark used here only to identify the prospect in a private sales concept.
-- No official logo files, product photography, testimonials, or campaign copy are bundled.
+- No product photography, testimonials, or campaign copy are bundled.
 
 ## Image prompts
 
 The generated assets use the `photorealistic-natural` workflow:
 
-- `hero-mendoza.png`: candid adult toast at a long vineyard table in Mendoza, Andes backdrop, label-free glasses and bottles, space for an editorial panel.
+- `hero-mendoza-gold.png`: candid adult toast at a long vineyard table in Mendoza, Andes backdrop, label-free glasses and bottles, space for an editorial panel; blouse retouched to champagne taupe.
 - `winery-arrival.png`: contemporary low winery architecture among vines, mountain horizon, two adult visitors small in frame.
-- `garden-table.png`: shared seasonal garden lunch with sparkling wine, empanadas, vegetables, and adult hands, with no brand labels.
+- `garden-table-gold.png`: shared seasonal garden lunch with sparkling wine, empanadas, vegetables, and adult hands, with no brand labels; napkins retouched to muted champagne gold.
 
 All prompts explicitly avoided logos, readable labels, text, watermarks, European chateau imagery, and black-and-gold luxury clichés.

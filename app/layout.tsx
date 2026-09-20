@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Visitas, degustaciones y una mesa para compartir en Mendoza.",
     images: [
       {
-        url: "/images/hero-mendoza.png",
+        url: "/images/hero-mendoza-gold.png",
         width: 1536,
         height: 1024,
         alt: "Imagen conceptual de una mesa entre viñedos en Mendoza",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Experiencias en Bodega Chandon",
     description:
       "Visitas, degustaciones y una mesa para compartir en Mendoza.",
-    images: ["/images/hero-mendoza.png"],
+    images: ["/images/hero-mendoza-gold.png"],
   },
   robots: {
     index: false,

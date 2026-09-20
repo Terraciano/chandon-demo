@@ -1,13 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #f2f2ed;
-  --paper-raised: #fafaf7;
-  --ink: #171714;
-  --muted: #62635d;
-  --accent: #d93b35;
-  --wine-shadow: #241c1b;
-  --line: rgb(23 23 20 / 18%);
+  --paper: #f2e9db;
+  --paper-raised: #faf4ea;
+  --header: #ede4d2;
+  --ink: #000000;
+  --muted: #5f5a51;
+  --accent: #cba43d;
+  --accent-soft: #d5ba85;
+  --wine-shadow: #211e18;
+  --line: rgb(0 0 0 / 18%);
   --gutter: clamp(1.25rem, 4vw, 4rem);
   --max: 90rem;
 }
@@ -40,11 +42,12 @@ a:focus-visible {
 
 ::selection {
   background: var(--accent);
-  color: var(--paper-raised);
+  color: var(--ink);
 }
 
 .site-header {
   align-items: center;
+  background: var(--header);
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr auto 1fr;
@@ -56,11 +59,14 @@ a:focus-visible {
 }
 
 .wordmark {
-  font-size: 1.8rem;
-  font-weight: 720;
-  letter-spacing: -0.06em;
-  line-height: 1;
+  display: block;
   width: max-content;
+}
+
+.wordmark img {
+  display: block;
+  height: auto;
+  width: 10.9rem;
 }
 
 nav {
@@ -121,9 +127,10 @@ nav a,
 
 .invitation-card {
   animation: card-arrive 0.85s 0.18s cubic-bezier(0.16, 1, 0.3, 1) both;
-  background: var(--accent);
+  background: var(--header);
+  border-top: 4px solid var(--accent);
   bottom: clamp(1.5rem, 4vw, 4rem);
-  color: #fff;
+  color: var(--ink);
   left: 0;
   max-width: 45rem;
   padding: clamp(1.5rem, 4vw, 3.75rem);
@@ -180,12 +187,12 @@ nav a,
 }
 
 .button-light {
-  background: var(--paper-raised);
+  background: var(--accent);
   color: var(--ink);
 }
 
 .button-light:hover {
-  background: #fff;
+  background: var(--accent-soft);
 }
 
 .text-link {
@@ -200,7 +207,7 @@ nav a,
 }
 
 .text-link-light {
-  color: #fff;
+  color: var(--ink);
 }
 
 .experience-section,
@@ -269,7 +276,7 @@ nav a,
 }
 
 .experience-premium {
-  background: #deded6;
+  background: var(--accent-soft);
   margin-top: 5rem;
 }
 
@@ -444,7 +451,7 @@ nav a,
 
 .formats-list article > a:hover {
   background: var(--accent);
-  color: #fff;
+  color: var(--ink);
 }
 
 .practical-section {
@@ -495,8 +502,9 @@ nav a,
 
 .final-invitation {
   align-items: end;
-  background: var(--accent);
-  color: #fff;
+  background: var(--header);
+  border-top: 4px solid var(--accent);
+  color: var(--ink);
   display: grid;
   gap: 3rem;
   grid-template-columns: 1.3fr 0.7fr;
@@ -539,7 +547,11 @@ footer p {
 }
 
 .footer-wordmark {
-  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.footer-wordmark img {
+  width: 8.5rem;
 }
 
 @keyframes hero-settle {
@@ -634,8 +646,8 @@ footer p {
     height: 4rem;
   }
 
-  .wordmark {
-    font-size: 1.45rem;
+  .wordmark img {
+    width: 8.75rem;
   }
 
   .hero {

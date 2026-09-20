@@ -34,7 +34,13 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="wordmark" href="#inicio" aria-label="Chandon, inicio">
-          CHANDON
+          <Image
+            src="/images/chandon-logo.png"
+            alt=""
+            width={870}
+            height={124}
+            priority
+          />
         </a>
         <nav aria-label="Navegación principal">
           <a href="#experiencias">Experiencias</a>
@@ -49,7 +55,7 @@ export default function Home() {
       <section className="hero" id="inicio" aria-labelledby="hero-title">
         <div className="hero-media">
           <Image
-            src="/images/hero-mendoza.png"
+            src="/images/hero-mendoza-gold.png"
             alt="Imagen conceptual de adultos brindando en una mesa junto a viñedos y montañas de Mendoza"
             fill
             priority
@@ -149,7 +155,7 @@ export default function Home() {
       <section className="table-section" aria-labelledby="table-title">
         <div className="table-image">
           <Image
-            src="/images/garden-table.png"
+            src="/images/garden-table-gold.png"
             alt="Imagen conceptual de una mesa compartida con espumoso, empanadas y vegetales en un jardín mendocino"
             fill
             sizes="100vw"
@@ -233,7 +239,12 @@ export default function Home() {
 
       <footer>
         <a className="wordmark footer-wordmark" href="#inicio">
-          CHANDON
+          <Image
+            src="/images/chandon-logo.png"
+            alt="Chandon"
+            width={870}
+            height={124}
+          />
         </a>
         <p>Beber con moderación. Prohibida su venta a menores de 18 años.</p>
         <p>Demo conceptual de primer contacto. No es un sitio oficial.</p>

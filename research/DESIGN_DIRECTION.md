@@ -2,7 +2,7 @@
 
 ## Design Read
 
-Reading this as: a reservation-led winery landing for adults planning a Mendoza visit, with Chandon's open, celebratory character expressed through landscape-scale photography, confident sans typography, and one vivid red accent.
+Reading this as: a reservation-led winery landing for adults planning a Mendoza visit, with Chandon's open, celebratory character expressed through landscape-scale photography, confident sans typography, warm cream surfaces, and one gold accent.
 
 ## Status
 
@@ -20,7 +20,7 @@ This is a first-contact sales hypothesis built from public information. It is no
 2. Keep Chandon social and open, not hushed or intimidating.
 3. Make every experience understandable in one glance: format, duration, tasting/food, and action.
 4. Let Mendoza appear through light, dry landscape, vineyard geometry, gardens, and outdoor tables.
-5. Use brand red as a confident hospitality signal, not as a technology-style glow.
+5. Use the gold found in Chandon Argentina's current interface as a restrained hospitality signal.
 
 ## Anti-patterns
 
@@ -32,14 +32,17 @@ This is a first-contact sales hypothesis built from public information. It is no
 
 ## Token system
 
-- Page background: Mineral white `#F2F2ED`
-- Primary text: Ink `#171714`
-- Muted text: Olive grey `#62635D`
-- Accent: Chandon red hypothesis `#D93B35`
-- Image shade: Wine shadow `#241C1B`
-- Border: Ink at 18% opacity
+- Page background: warm cream `#F2E9DB`
+- Raised surface: soft cream `#FAF4EA`
+- Header and invitation surface: Chandon cream `#EDE4D2`
+- Primary text: black `#000000`
+- Muted text: warm grey `#5F5A51`
+- Accent: Chandon gold `#CBA43D`
+- Secondary accent: soft gold `#D5BA85`
+- Image shade: warm shadow `#211E18`
+- Border: black at 18% opacity
 - Theme: light, locked across the page; photography may contain natural dark values
-- Accent rule: red is the only chromatic UI accent
+- Accent rule: gold is the only chromatic UI accent
 
 ## Typography
 
@@ -52,7 +55,7 @@ This is a first-contact sales hypothesis built from public information. It is no
 
 ## Layout and composition
 
-- Hero: immersive 16:10 image occupying most of the viewport, with a compact red editorial panel overlapping the lower-left edge
+- Hero: immersive 16:10 image occupying most of the viewport, with a compact cream editorial panel and gold top rule overlapping the lower-left edge
 - Immediate choice: two unequal experience panels, classic and premium, instead of a three-card feature row
 - Place story: one large landscape image with a narrow text column and tangible route language
 - Table story: horizontal full-width dining image paired with short, social copy
@@ -63,7 +66,7 @@ This is a first-contact sales hypothesis built from public information. It is no
 
 ## Signature element
 
-The memorable device is a red "invitation card" that cuts into the hero photograph and carries the specific promise "Burbujas de Mendoza." It behaves like a printed invitation placed over a travel photograph and returns once as the final booking panel.
+The memorable device is a cream "invitation card" with a gold leading rule that cuts into the hero photograph and carries the specific promise "Burbujas de Mendoza." It behaves like a printed invitation placed over a travel photograph and returns once as the final booking panel.
 
 ## Photography and media
 
@@ -71,7 +74,7 @@ The memorable device is a red "invitation card" that cuts into the hero photogra
 - Hero: candid outdoor sparkling-wine toast at a long table, dry Mendoza light, Andes and vines, adults only, no visible brand labels
 - Winery: low modern architecture, vineyard rows, mountain horizon, people small in frame
 - Gastronomy: relaxed seasonal table in a garden, sparkling wine, Argentine ingredients, human hands rather than posed faces
-- Color grade: sun-washed neutrals, deep natural shadows, restrained red in clothing or table detail
+- Color grade: sun-washed neutrals, deep natural shadows, and champagne-toned textiles with no red accent
 - Avoid: branded bottles, copied Chandon campaigns, barrel close-up cliches, staged sommelier portraits, generic European chateau imagery
 
 ## Motion
@@ -100,7 +103,7 @@ The memorable device is a red "invitation card" that cuts into the hero photogra
 
 ## Identity preservation
 
-The direction keeps the visible CHANDON wordmark treatment, all-caps confidence, Spanish voseo, sparkling-wine focus, "anfitriones" language, Mendoza setting, and social celebration. It modernizes composition, hierarchy, and booking clarity without inventing a new logo or converting the brand into a minimal tech product.
+The direction uses Chandon Argentina's public black wordmark and current CSS palette—warm creams, black, and gold—alongside all-caps confidence, Spanish voseo, sparkling-wine focus, "anfitriones" language, Mendoza setting, and social celebration. It modernizes composition, hierarchy, and booking clarity without inventing a new logo or converting the brand into a minimal tech product.
 
 ## Planned copy boundary
 

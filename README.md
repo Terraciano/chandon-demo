@@ -34,12 +34,13 @@ bun run build
 
 ## Deployment
 
-The default target is Vercel.
+The default target is a static export on Cloudflare Pages.
 
-1. Import this repository into Vercel.
-2. Use the detected Next.js settings and Bun lockfile.
-3. Optionally set `NEXT_PUBLIC_SITE_URL` to the final HTTPS origin so canonical and sitemap URLs use the deployed host.
-4. Deploy.
+1. Import this repository into Cloudflare Pages.
+2. Set the build command to `bun install --frozen-lockfile && bun run build`.
+3. Set the build output directory to `out`.
+4. Set `NEXT_PUBLIC_SITE_URL` to the final HTTPS origin so canonical and sitemap URLs use the deployed host.
+5. Deploy from the `main` branch.
 
 No secrets or backend services are required. The page links to Chandon's existing public reservation surface and published visitor contacts. The demo is intentionally `noindex` so it cannot compete with the prospect's official site. Change that only for an authorized production release.
 
